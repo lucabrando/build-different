@@ -116,14 +116,14 @@ a {
 }
 
 .letter p {
-    font-size: 30px;
-    line-height: 1.6;
-    margin-bottom: 28px;
+    font-size: 18px;
+    line-height: 1.75;
+    margin-bottom: 24px;
 }
 
 .letter p.intro {
-    font-size: 30px;
-    line-height: 1.6;
+    font-size: 18px;
+    line-height: 1.75;
 }
 
 .letter em {
@@ -133,10 +133,10 @@ a {
 /* Section Titles */
 .section-title {
     font-family: var(--font-serif);
-    font-size: 34px;
+    font-size: 24px;
     font-weight: 400;
     letter-spacing: -0.02em;
-    margin: 56px 0 28px;
+    margin: 48px 0 24px;
 }
 
 /* Signature */
@@ -205,16 +205,16 @@ a {
     }
 
     .letter p {
-        font-size: 24px;
+        font-size: 17px;
     }
 
     .letter p.intro {
-        font-size: 24px;
+        font-size: 17px;
     }
 
     .section-title {
-        font-size: 28px;
-        margin: 48px 0 24px;
+        font-size: 22px;
+        margin: 40px 0 20px;
     }
 
     .signature {
@@ -263,17 +263,17 @@ a {
     }
 
     .letter p {
-        font-size: 20px;
-        margin-bottom: 22px;
+        font-size: 16px;
+        margin-bottom: 20px;
     }
 
     .letter p.intro {
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .section-title {
-        font-size: 24px;
-        margin: 40px 0 20px;
+        font-size: 20px;
+        margin: 36px 0 18px;
     }
 
     .signature {
