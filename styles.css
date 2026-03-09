@@ -60,12 +60,12 @@ a {
 .hero {
     max-width: var(--content-width);
     margin: 0 auto;
-    padding: 80px 24px 40px;
+    padding: 60px 24px 24px;
     text-align: center;
 }
 
 .hero-icon {
-    margin-bottom: 24px;
+    margin-bottom: 16px;
     opacity: 0.7;
 }
 
@@ -75,7 +75,7 @@ a {
     font-weight: 400;
     line-height: 1.1;
     letter-spacing: -0.03em;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
 }
 
 .hero-subtitle {
@@ -83,7 +83,7 @@ a {
     font-size: 22px;
     font-style: italic;
     color: var(--color-text-secondary);
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .hero-meta {
@@ -96,8 +96,8 @@ a {
 /* Full Width Image - Smaller to fit 14" screen */
 .full-image {
     width: 100%;
-    max-width: 720px;
-    margin: 0 auto 50px;
+    max-width: 540px;
+    margin: 0 auto 40px;
     padding: 0 24px;
 }
 
@@ -110,20 +110,20 @@ a {
 
 /* Letter Article */
 .letter {
-    max-width: var(--content-width);
+    max-width: 700px;
     margin: 0 auto;
     padding: 0 24px 80px;
 }
 
 .letter p {
-    font-size: 18px;
-    line-height: 1.75;
-    margin-bottom: 24px;
+    font-size: 30px;
+    line-height: 1.6;
+    margin-bottom: 28px;
 }
 
 .letter p.intro {
-    font-size: 20px;
-    line-height: 1.7;
+    font-size: 30px;
+    line-height: 1.6;
 }
 
 .letter em {
@@ -133,7 +133,7 @@ a {
 /* Section Titles */
 .section-title {
     font-family: var(--font-serif);
-    font-size: 24px;
+    font-size: 34px;
     font-weight: 400;
     letter-spacing: -0.02em;
     margin: 56px 0 28px;
@@ -178,7 +178,7 @@ a {
 /* Responsive - Tablet */
 @media (max-width: 768px) {
     .hero {
-        padding: 60px 20px 32px;
+        padding: 48px 20px 20px;
     }
 
     .hero-icon {
@@ -196,7 +196,7 @@ a {
 
     .full-image {
         max-width: 100%;
-        margin-bottom: 40px;
+        margin-bottom: 32px;
         padding: 0 20px;
     }
 
@@ -205,15 +205,15 @@ a {
     }
 
     .letter p {
-        font-size: 17px;
+        font-size: 24px;
     }
 
     .letter p.intro {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .section-title {
-        font-size: 22px;
+        font-size: 28px;
         margin: 48px 0 24px;
     }
 
@@ -227,22 +227,22 @@ a {
 /* Responsive - Mobile */
 @media (max-width: 480px) {
     .hero {
-        padding: 48px 16px 28px;
+        padding: 40px 16px 16px;
     }
 
     .hero-icon {
         width: 24px;
         height: 24px;
-        margin-bottom: 20px;
+        margin-bottom: 12px;
     }
 
     .hero-title {
-        font-size: 36px;
+        font-size: 32px;
     }
 
     .hero-subtitle {
         font-size: 18px;
-        margin-bottom: 12px;
+        margin-bottom: 6px;
     }
 
     .hero-meta {
@@ -251,7 +251,7 @@ a {
 
     .full-image {
         padding: 0 16px;
-        margin-bottom: 32px;
+        margin-bottom: 28px;
     }
 
     .full-image img {
@@ -263,16 +263,16 @@ a {
     }
 
     .letter p {
-        font-size: 16px;
-        margin-bottom: 20px;
+        font-size: 20px;
+        margin-bottom: 22px;
     }
 
     .letter p.intro {
-        font-size: 17px;
+        font-size: 20px;
     }
 
     .section-title {
-        font-size: 20px;
+        font-size: 24px;
         margin: 40px 0 20px;
     }
 
