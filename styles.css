@@ -19,6 +19,8 @@
 html {
     font-size: 16px;
     scroll-behavior: smooth;
+    background-color: var(--color-bg);
+    min-height: 100%;
 }
 
 body {
@@ -28,6 +30,7 @@ body {
     line-height: 1.7;
     -webkit-font-smoothing: antialiased;
     position: relative;
+    min-height: 100%;
 }
 
 /* Grain Texture Overlay */
