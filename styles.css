@@ -7,7 +7,7 @@
     --color-accent: #1a1a1a;
     --font-serif: 'EB Garamond', Garamond, Georgia, serif;
     --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    --content-width: 620px;
+    --content-width: 500px;
     background-color: #F5F3EE;
 }
 
@@ -97,7 +97,7 @@ a {
 /* Full Width Image - Smaller to fit 14" screen */
 .full-image {
     width: 100%;
-    max-width: 540px;
+    max-width: 440px;
     margin: 0 auto 40px;
     padding: 0 24px;
 }
@@ -111,7 +111,7 @@ a {
 
 /* Letter Article */
 .letter {
-    max-width: 700px;
+    max-width: 560px;
     margin: 0 auto;
     padding: 0 24px 80px;
     text-align: center;
